@@ -47,6 +47,7 @@
 		5C6AFFF418575D8100034CB9 /* Players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C6AFFDC18575D8100034CB9 /* Players@2x.png */; };
 		5C6AFFF718575EEE00034CB9 /* PlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6AFFF618575EEE00034CB9 /* PlayersViewController.m */; };
 		5C6AFFFA18575FBB00034CB9 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6AFFF918575FBB00034CB9 /* Player.m */; };
+		5C856C5C18576760006D516B /* PlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C856C5B18576760006D516B /* PlayerCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,8 @@
 		5C6AFFF618575EEE00034CB9 /* PlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersViewController.m; sourceTree = "<group>"; };
 		5C6AFFF818575FBB00034CB9 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		5C6AFFF918575FBB00034CB9 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		5C856C5A18576760006D516B /* PlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCell.h; sourceTree = "<group>"; };
+		5C856C5B18576760006D516B /* PlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +180,8 @@
 				5C6AFFF918575FBB00034CB9 /* Player.m */,
 				5C6AFFF518575EEE00034CB9 /* PlayersViewController.h */,
 				5C6AFFF618575EEE00034CB9 /* PlayersViewController.m */,
+				5C856C5A18576760006D516B /* PlayerCell.h */,
+				5C856C5B18576760006D516B /* PlayerCell.m */,
 				5C6AFF9618575C9C00034CB9 /* Supporting Files */,
 			);
 			path = StoryBoards;
@@ -368,6 +373,7 @@
 				5C6AFFF718575EEE00034CB9 /* PlayersViewController.m in Sources */,
 				5C6AFFA618575C9C00034CB9 /* StoryBoardsViewController.m in Sources */,
 				5C6AFFA018575C9C00034CB9 /* StoryBoardsAppDelegate.m in Sources */,
+				5C856C5C18576760006D516B /* PlayerCell.m in Sources */,
 				5C6AFFFA18575FBB00034CB9 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,6 +583,7 @@
 				5C6AFFC018575C9D00034CB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C6AFFC118575C9D00034CB9 /* Build configuration list for PBXNativeTarget "StoryBoardsTests" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +592,7 @@
 				5C6AFFC318575C9D00034CB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
